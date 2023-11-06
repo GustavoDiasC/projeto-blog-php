@@ -1,5 +1,5 @@
 <?php
-
+  $categories;
   $posts = [
     [
       'id' => 1,

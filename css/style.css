@@ -203,6 +203,13 @@ footer{
     color: #000;
 }
 
+/* Contato */
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* mobile */
 @media(max-width: 480px){
     /*Home*/

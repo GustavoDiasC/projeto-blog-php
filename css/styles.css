@@ -203,7 +203,93 @@ footer {
   text-align: center;
   background-color: #000;
   color: #FFF;
-  padding: 50px 0;
+  padding: 11px 0;
+}
+
+
+/*CONTATO*/
+.form-container{
+  margin-top: 16px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.space-label{
+  margin-right: 8px;
+}
+
+.space-bottom{
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  border: none;
+  font-weight: bold;
+}
+.label-text{
+  margin-bottom: 16px;
+}
+.box-text{
+  padding: 10px;
+}
+.btn-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-style{
+  padding: 8px;
+  border: none;
+  background-color: #161616;
+  color: #FFF;
+  font-size: 1rem;
+}
+
+.btn-style:hover{
+  background-color: #666;
+}
+
+/*Sobre*/
+.about-container{
+  margin: 0 auto;
+  font-size: 1.2rem;
+  text-align:center;
+  width: 500px;
+  height: 200px;
+  word-break: break-all;
+}
+
+/*Categorias*/
+.list-container{
+  text-align: center;
+  margin: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-container li{
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+
+.list-container li a{
+  text-decoration: none;
+  color: #FFF;
+  font-size: 1.4rem;
+  background-color: #161616;
+  padding: 2px 16px;
+  border-radius: 16px;
+}
+
+.list-container li a:hover{
+  color:#777;
+}
+
+.text-container{
+  margin-top: 16px;
 }
 
 /* MOBILE */
